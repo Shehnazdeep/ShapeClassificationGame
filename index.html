@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Classification Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> आकार वर्गीकरण खेल (Shape Classification Game)</h1>
+    </header>
+    <main>
+        <div id="game-area">
+
+            <div id="objects-container"></div>
+
+
+            <div id="categories-container">
+                <div class="category" data-shape="circle">वृत्त</div>
+                <div class="category" data-shape="square">चतुरश्रः</div>
+                <div class="category" data-shape="triangle">त्रिकोणः</div>
+                <div class="category" data-shape="rectangle">आयत</div>
+                <div class="category" data-shape="oval">अण्डाकारः</div>
+                <div class="category" data-shape="semiCircle">अर्धवृत्तम्</div>
+            </div>
+        </div>
+        <div id="feedback"></div>
+        <div id="score-timer">
+            <span id="score">अंक: 0</span>
+            <span id="timer">कालः: 60s</span>
+        </div>
+        <div>
+            <button id="play-again" style="display: none;">पुनः क्रीडतु</button>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

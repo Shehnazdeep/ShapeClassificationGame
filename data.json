@@ -1,0 +1,26 @@
+[
+    {
+        "shape": "circle",
+        "image": "images/circle.jpeg"
+    },
+    {
+        "shape": "square",
+        "image": "images/square.jpg"
+    },
+    {
+        "shape": "triangle",
+        "image": "images/triangle.jpeg"
+    },
+    {
+        "shape": "rectangle",
+        "image": "images/rectangle.jpeg"
+    },
+    {
+        "shape": "oval",
+        "image": "images/oval.jpg"
+    },
+    {
+        "shape": "semiCircle",
+        "image": "images/semiCircle.png"
+    }
+]
